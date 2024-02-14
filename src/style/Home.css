@@ -1,0 +1,180 @@
+.whole{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    background-color: rgba(247, 245, 249, 1);
+}
+
+.textcontent{
+    width: 900px;
+    min-height: 400px;
+    /* border: 1px solid black; */
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+#font-style-1 {
+    font-family: 'poppins-bold', sans-serif !important;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+
+.text-1 p{
+    width: 800px;
+    height: 160px;
+    top: 186px;
+    left: 100px;
+    font-size: 20px;
+}
+.text-2 p{
+    width: 800px;
+    height: 160px;
+    top: 186px;
+    left: 100px;
+    font-size: 20px;
+}
+
+.signin {
+    /* border: 1px solid black; */
+    min-width: 410px;
+    min-height: 434px;
+    margin-top: 100px;
+    margin-left: 100px;
+    /* gap: 32px; If this refers to the gap between grid or flex items */
+  }
+  
+.sign_in {
+    font-family: 'poppins-bold', sans-serif !important;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0;
+    text-align: left;
+    margin: 0px 0px 0px 0px;
+    background-color: transparent;
+    border-bottom: 5px solid rgba(128, 100, 162, 1);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+  }
+  
+.Join{
+    font-family: 'poppins-bold', sans-serif !important;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 40px;
+    background-color: transparent;
+    border: 0px;
+  }
+
+  .options {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+  }
+  
+  .g_f {
+    margin-top: 60px;
+    display: flex;  
+    flex-direction: column;
+    width: 400px;
+  } 
+  
+  .g_f button {
+    margin-right: 10px; /* Adjust spacing between buttons */
+    margin-bottom: 30px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: transparent;
+  }
+
+  .container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+  }
+  
+  .divider {
+    flex-grow: 1; /* Allow the divider to expand and fill remaining space */
+    border-top: 1px solid black; /* Style the divider */
+  }
+  
+  .text-3 {
+    margin: 0 10px; /* Add spacing between text and divider */
+  }
+  
+  .self {
+    margin-top: 60px;
+    display: flex;  
+    flex-direction: column;
+    width: 400px;
+    
+  } 
+  
+  .self input {
+    margin-right: 10px; /* Adjust spacing between buttons */
+    margin-bottom: 30px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: transparent;
+  }
+  
+  /* style.css */
+
+/* body { 
+	margin: 0; 
+	font-family: monospace; 
+	min-height: 100vh; 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	background-image: linear-gradient(to top right, 
+			#7abb76, #cfd2d8); 
+	color: #0e0f0f; 
+	font-size: 20px; 
+}  */
+
+.group { 
+	width: 400px; 
+	text-align: center;
+  margin-top: 0; 
+} 
+
+.group label { 
+	display: block; 
+	padding: 20px 0; 
+} 
+
+.group .power-container { 
+	background-color: #2E424D; 
+	width: 100%; 
+	height: 15px; 
+	border-radius: 5px; 
+} 
+
+.group .power-container #power-point { 
+	background-color: #D73F40; 
+	width: 1%; 
+	height: 100%; 
+	border-radius: 5px; 
+	transition: 0.5s; 
+}
+
+.agree{
+    background-color:rgba(128, 100, 162, 1);
+    border-radius: 10px;
+    height: 40px;
+    font-size: 25px;
+    width: 400px;
+}
+
+.imge img{
+  width: 600px;
+}
